@@ -1,0 +1,8 @@
+#ifndef _AVGPOOLING_L4_H_
+#define _AVGPOOLING_L4_H_
+
+#include "Datatype.h"
+
+void avgPooling_L4(IMAGE_DATA_TYPE ImgIn[L3_MAX_OUTPUT_HEIGHT][L3_MAX_OUTPUT_HEIGHT], IMAGE_DATA_TYPE ImgOut[L4_AVGP_HEIGHT][L4_AVGP_WIDTH]);
+
+#endif
